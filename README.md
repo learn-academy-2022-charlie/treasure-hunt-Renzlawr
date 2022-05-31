@@ -26,6 +26,12 @@
     - setState with updated board value
 
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
+    - Branch: win-lose
+    - create a random number for treasure location and set state
+    - Added a conditional to the handleGamePlay to update the treasureLocation with a trophy
+    - Added a new random number for bomb location and set state
+    - added to the conditional in handleGamePlay to update the bombLocation with a bomb
+
 - As a user, I can click on a “Play Again” button that will restart the game.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
